@@ -10,7 +10,6 @@ if a.lower() == "no":
 else:
     print("LET'S START THE GAME")
 # those who need instructions can ask for it, others can start the game directly.
-
 a = input("welcome to the game of chance,are you ready to test your fortune ,\ndo you need instructions type (yes) or (no) \n")
 if a.lower() == "yes":
     print(''' 1. player rolls two six-sided dice and adds the numbers rolled together.
