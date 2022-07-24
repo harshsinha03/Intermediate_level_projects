@@ -1,5 +1,3 @@
-#POP version and OOPS version included
-
 '''Coffee Machine Program Requirements
 1. Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
 a. Check the user’s input to decide what to do next.
@@ -116,4 +114,8 @@ serve= True
 while serve:
     ask=input("What would you like? (espresso/latte/cappuccino):")
     print(order(ask))
+
+
+# Implementation in oops
+
     
