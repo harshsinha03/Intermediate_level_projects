@@ -120,4 +120,15 @@ while serve:
 
 # Implementation in oops
 
-    
+        money=float(input('''please enter the cash in the machine.'''))
+    if asks["cost"]<=money:
+        a=money-asks["cost"]
+        b=round(a,2)
+        return f"here is your change {b} and your {ask}"
+    else:
+        return "Not enough money please try again"
+     
+serve= True
+while serve:
+    ask=input("What would you like? (espresso/latte/cappuccino):")
+    print(order(ask))
